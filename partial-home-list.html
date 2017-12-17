@@ -1,0 +1,7 @@
+<ul>
+    <li ng-repeat="student in students">{{ student.id }} - {{ student.name }} <span><a ui-sref=".student({id: student.id })"> Detail view</a></span></li>
+</ul>
+
+<div ui-view>
+
+</div>
